@@ -8,7 +8,7 @@ import OtherWorld from './other-world';
 
 
 render(
-  <BrowserRouter>
+  <BrowserRouter basename="test-react-app/">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/other" element={<OtherWorld/>} />
